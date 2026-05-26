@@ -134,7 +134,8 @@ SIGMA = float(min(CAL['within_sd_M'], CAL['within_sd_V']) * 0.70)
 
 X_BAR      = -100.0      # section thresholds (inactive)
 Y_BAR      = -100.0
-LAMBDA_TAX = 0.75
+# LAMBDA_TAX = 0.75
+LAMBDA_TAX = 0.6
 EFFORT_GRID = np.linspace(0.0, 1.5, 15)
 
 # Rule integer codes (required by @njit)
